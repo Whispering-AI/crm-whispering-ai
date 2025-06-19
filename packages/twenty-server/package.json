@@ -5,6 +5,8 @@
   "private": true,
   "license": "AGPL-3.0",
   "scripts": {
+  "build": "tsc",
+    "start": "yarn start:prod",
     "nx": "NX_DEFAULT_PROJECT=twenty-server node ../../node_modules/nx/bin/nx.js",
     "start:prod": "node dist/src/main",
     "command:prod": "node dist/src/command/command",
